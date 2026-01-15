@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #9DBD9C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playarea{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(250, 242, 242);
+}
+
+#nav{
+    padding: 0% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    height: 10%;
+    background-color: #4A6D48;
+}
+
+.track{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+
+.boxes{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 20PX ;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+#mainplayarea{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+}
