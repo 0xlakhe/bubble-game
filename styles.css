@@ -4,96 +4,99 @@
   box-sizing: border-box;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-#main{
-    width: 100%;
-    height: 100%;
-    background-color: #9DBD9C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #9dbd9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#playarea{
-    width: 80%;
-    height: 80%;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: rgb(250, 242, 242);
+#playarea {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(250, 242, 242);
 }
 
-#nav{
-    padding: 0% 25%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    width: 100%;
-    height: 10%;
-    background-color: #4A6D48;
+#nav {
+  padding: 0% 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  background-color: #4a6d48;
 }
 
-.track{
-    display: flex; 
-    align-items: center;
-    gap: 20px;
+.track {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.track h2{
-    font-size: 30px;
-    font-weight: 700;
+.track h2 {
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.boxes{
-    font-size: 20px;
-    font-weight: 900;
-    padding: 10px 20PX ;
-    border-radius: 5px;
-    background-color: antiquewhite;
+.boxes {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: antiquewhite;
 }
 
-#mainplayarea{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    width: 100%;
-    height: 90%;
-    padding: 20px;
+#mainplayarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 90%;
+  padding: 20px;
 }
 
-.bubble{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: #4A6D48;
-    border-radius: 50%;
-    color: white;
-    padding: 25px;
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4a6d48;
+  border-radius: 50%;
+  color: white;
+  padding: 25px;
 }
 
-.bubble:hover{
-    cursor: pointer;
-    background-color: #759673;
+.bubble:hover {
+  cursor: pointer;
+  background-color: #759673;
 }
 
-#bulb{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    background-color: yellowgreen;
+#bulb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: yellowgreen;
 }
 
-button{
-    padding: 20px;
-    font-size: 20px;
-    border-radius: 10px;
+button {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
 }
